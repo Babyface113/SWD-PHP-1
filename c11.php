@@ -21,12 +21,21 @@
 // 	echo "<br>";
 // }
 
-$broj = NULL; // 60
-       //15
-for($i = 10; $i < 50; $i++){
-	$broj = $broj + $i;
+// $broj = NULL; // 60
+//        //15
+// for($i = 10; $i < 50; $i++){
+// 	$broj = $broj + $i;
+// }
+
+// echo $broj;
+
+
+$niza = array();
+
+for($i = 10; $i < 20; $i++){
+	$niza[] = $i;
 }
 
-echo $broj;
+print_r($niza);
 
 ?>
