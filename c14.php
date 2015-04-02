@@ -30,10 +30,24 @@
 // echo '<br/>';
 // echo "Nakratko prezime: ".$prezime;
 
+/*
+podredete ja nizata spored brojot na zapishani studenti od najgolem kon najmal
+
+krajnata niza da izgleda vaka: 
+
+$predmeti =  array(
+	array('predmet' => 'Biologija', 'br_studenti' => 31),
+	array('predmet' => 'Fizika', 'br_studenti' => 28),
+	array('predmet' => 'Makedonski', 'br_studenti' => 12),
+	array('predmet' => 'Programiranje', 'br_studenti' => 11),
+	array('predmet' => 'Matematika', 'br_studenti' => 10),
+	array('predmet' => 'Hemija', 'br_studenti' => 5),
+);
+
+*/
 
 
-
-
+//niza za domashno
 $predmeti =  array(
 	array('predmet' => 'Matematika', 'br_studenti' => 10),
 	array('predmet' => 'Makedonski', 'br_studenti' => 12),
@@ -42,7 +56,7 @@ $predmeti =  array(
 	array('predmet' => 'Hemija', 'br_studenti' => 5),
 	array('predmet' => 'Biologija', 'br_studenti' => 31),
 );
-
+//kraj na niza za domashno
 
 $sobirok = 0;
 
