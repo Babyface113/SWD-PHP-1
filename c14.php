@@ -60,8 +60,8 @@ $predmeti =  array(
 
 $sobirok = 0;
 
-foreach($predmeti as $predmet){
-	$sobirok += $predmet['br_studenti'];
+foreach($predmeti as $p){
+	$sobirok += $p['br_studenti'];
 }
 
 echo 'Sredna vrednost na zapishani studenti po predmet: '.$sobirok / count($predmeti);
