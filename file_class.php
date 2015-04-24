@@ -2,8 +2,8 @@
 
 class File{
 
-	private $fh;
-	private $filename;
+	private $fh; // link to file
+	private $filename; // imenik.txt
 
 	public function __construct($file){
 		$this->filename = $file;
@@ -17,8 +17,8 @@ class File{
 
 	public function read(){
 
-		// $size = filesize($this->filename);
 		// rewind($this->fh);
+		// $size = filesize($this->filename);
 		// return fread($this->fh, $size);
 		return file_get_contents($this->filename);
 	}
@@ -33,6 +33,7 @@ $f->write('pero - 223305');
 $f->write('janko - 332810');
 echo $f->read();
 $f->close();
+
 
 
 ?>
