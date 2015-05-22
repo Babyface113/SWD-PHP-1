@@ -22,6 +22,7 @@ $res = $query->fetchAll(PDO::FETCH_ASSOC);
 		<th>ime</th>
 		<th>prezime</th>
 		<th>koledz_id</th>
+		<th>delete</th>
 	</tr>
 	<?php foreach($res as $row){ ?>
 		<tr>
@@ -29,6 +30,7 @@ $res = $query->fetchAll(PDO::FETCH_ASSOC);
 			<td><?=$row['ime']?></td>
 			<td><?=$row['prezime']?></td>
 			<td><?=$row['koledz_id']?></td>
+			<td><a href="db_delete.php?id=<?=$row['id']?>">Delete</a></td>
 		</tr>
 	<?php } ?>
 </table>
